@@ -2,11 +2,11 @@
 
 
 def getTotalX(a, b):
-    limite_sup = min(b)
-    limite_inferior = max(a)
+    upper_limit = min(b)
+    inferior_limit = max(a)
 
     counter = 0
-    for i in range(limite_inferior, limite_sup + 1):
+    for i in range(inferior_limit, upper_limit + 1):
         is_between = True
         for elem_a in a:
             if i % elem_a != 0:
