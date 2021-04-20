@@ -1,0 +1,8 @@
+*.txt
+
+# haskell
+*.hi
+*.hs
+
+# haskell / c
+*.o
